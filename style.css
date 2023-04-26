@@ -514,40 +514,6 @@ button:hover {
     }
 }
 
-/* Basic styles */
-body {
-    font-family: 'Arial', sans-serif;
-}
-
-h2 {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.portfolio-description {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-/* Portfolio filter */
-.portfolio-filter {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.filter-btn {
-    background-color: transparent;
-    border: 1px solid #000;
-    cursor: pointer;
-    font-size: 16px;
-    margin: 0 5px;
-    outline: none;
-    padding: 8px 16px;
-    transition: all 0.3s;
-}
-
-.filter-btn:hover,
-.filter
 
 
 /* KEYFRAMES ANIMATION */
