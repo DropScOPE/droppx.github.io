@@ -434,6 +434,87 @@ button:hover {
     margin: 0 20px;
 }
 
+/* Add this media query at the end of your CSS file */
+
+/* For mobile devices */
+@media only screen and (max-width: 767px) {
+    .header {
+        padding: 10px 5%;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .navbar a {
+        font-size: 16px;
+        margin-left: 25px;
+    }
+
+    .home-content h1 {
+        font-size: 36px;
+    }
+
+    .home-content h3 {
+        font-size: 24px;
+    }
+
+    .home-content p {
+        font-size: 14px;
+    }
+
+    .btn-box {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .btn-box a {
+        width: 130px;
+        font-size: 16px;
+        margin: 10px 0;
+    }
+}
+
+/* For tablet devices */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .header {
+        padding: 15px 5%;
+    }
+
+    .logo {
+        font-size: 22px;
+    }
+
+    .navbar a {
+        font-size: 16px;
+        margin-left: 25px;
+    }
+
+    .home-content h1 {
+        font-size: 48px;
+    }
+
+    .home-content h3 {
+        font-size: 28px;
+    }
+
+    .home-content p {
+        font-size: 14px;
+    }
+
+    .btn-box {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .btn-box a {
+        width: 140px;
+        font-size: 18px;
+        margin: 10px 0;
+    }
+}
+
+
 
 /* KEYFRAMES ANIMATION */
 @keyframes showRight {
